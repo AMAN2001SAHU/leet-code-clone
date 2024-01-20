@@ -1,0 +1,33 @@
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files with sensitive information
+config.ini
+secrets.yaml
+
+# Ignore node_modules
+node_modules/
+
+#Ignore bash Script
+server/fileStructure.sh
+
+#Igonre Environment
+.env
